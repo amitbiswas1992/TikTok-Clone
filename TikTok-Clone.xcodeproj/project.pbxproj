@@ -56,15 +56,63 @@
 		5EF95F7E25CF4373008FB214 /* TikTok-Clone */ = {
 			isa = PBXGroup;
 			children = (
-				5EF95F7F25CF4373008FB214 /* AppDelegate.swift */,
-				5EF95F8125CF4373008FB214 /* SceneDelegate.swift */,
-				5EF95F8325CF4373008FB214 /* ViewController.swift */,
+				5EF95F9E25CF5355008FB214 /* Resources */,
+				5EF95F9D25CF532C008FB214 /* Managers */,
+				5EF95F9C25CF5329008FB214 /* Model */,
+				5EF95F9B25CF5328008FB214 /* ViewModel */,
+				5EF95F9A25CF5326008FB214 /* Controllers */,
+				5EF95F9925CF5324008FB214 /* Views */,
 				5EF95F8525CF4373008FB214 /* Main.storyboard */,
-				5EF95F8825CF4377008FB214 /* Assets.xcassets */,
-				5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */,
 				5EF95F8D25CF4377008FB214 /* Info.plist */,
 			);
 			path = "TikTok-Clone";
+			sourceTree = "<group>";
+		};
+		5EF95F9925CF5324008FB214 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EF95F8325CF4373008FB214 /* ViewController.swift */,
+				5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EF95F9A25CF5326008FB214 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EF95F9B25CF5328008FB214 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5EF95F9C25CF5329008FB214 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EF95F9D25CF532C008FB214 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5EF95F9E25CF5355008FB214 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF95F8825CF4377008FB214 /* Assets.xcassets */,
+				5EF95F7F25CF4373008FB214 /* AppDelegate.swift */,
+				5EF95F8125CF4373008FB214 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
