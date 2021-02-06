@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E85F43425CF5DF20064AC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E85F43325CF5DF20064AC50 /* Assets.xcassets */; };
 		5EF95F8025CF4373008FB214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F7F25CF4373008FB214 /* AppDelegate.swift */; };
 		5EF95F8225CF4373008FB214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8125CF4373008FB214 /* SceneDelegate.swift */; };
 		5EF95F8425CF4373008FB214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8325CF4373008FB214 /* ViewController.swift */; };
-		5EF95F8925CF4377008FB214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF95F8825CF4377008FB214 /* Assets.xcassets */; };
 		5EF95F8C25CF4377008FB214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E85F43325CF5DF20064AC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../BitCoinPices/BitCoinPices/Assets.xcassets; sourceTree = "<group>"; };
 		5EF95F7C25CF4373008FB214 /* TikTok-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TikTok-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF95F7F25CF4373008FB214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF95F8125CF4373008FB214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EF95F8325CF4373008FB214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EF95F8825CF4377008FB214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF95F8B25CF4377008FB214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF95F8D25CF4377008FB214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +54,7 @@
 		5EF95F7E25CF4373008FB214 /* TikTok-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				5E85F43325CF5DF20064AC50 /* Assets.xcassets */,
 				5EF95F9E25CF5355008FB214 /* Resources */,
 				5EF95F9D25CF532C008FB214 /* Managers */,
 				5EF95F9C25CF5329008FB214 /* Model */,
@@ -105,7 +106,6 @@
 		5EF95F9E25CF5355008FB214 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5EF95F8825CF4377008FB214 /* Assets.xcassets */,
 				5EF95F7F25CF4373008FB214 /* AppDelegate.swift */,
 				5EF95F8125CF4373008FB214 /* SceneDelegate.swift */,
 			);
@@ -169,8 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E85F43425CF5DF20064AC50 /* Assets.xcassets in Resources */,
 				5EF95F8C25CF4377008FB214 /* LaunchScreen.storyboard in Resources */,
-				5EF95F8925CF4377008FB214 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
