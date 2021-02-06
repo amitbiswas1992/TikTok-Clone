@@ -10,7 +10,6 @@
 		5EF95F8025CF4373008FB214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F7F25CF4373008FB214 /* AppDelegate.swift */; };
 		5EF95F8225CF4373008FB214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8125CF4373008FB214 /* SceneDelegate.swift */; };
 		5EF95F8425CF4373008FB214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8325CF4373008FB214 /* ViewController.swift */; };
-		5EF95F8725CF4373008FB214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF95F8525CF4373008FB214 /* Main.storyboard */; };
 		5EF95F8925CF4377008FB214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF95F8825CF4377008FB214 /* Assets.xcassets */; };
 		5EF95F8C25CF4377008FB214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		5EF95F7F25CF4373008FB214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF95F8125CF4373008FB214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EF95F8325CF4373008FB214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EF95F8625CF4373008FB214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EF95F8825CF4377008FB214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF95F8B25CF4377008FB214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF95F8D25CF4377008FB214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				5EF95F7F25CF4373008FB214 /* AppDelegate.swift */,
 				5EF95F8125CF4373008FB214 /* SceneDelegate.swift */,
 				5EF95F8325CF4373008FB214 /* ViewController.swift */,
-				5EF95F8525CF4373008FB214 /* Main.storyboard */,
 				5EF95F8825CF4377008FB214 /* Assets.xcassets */,
 				5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */,
 				5EF95F8D25CF4377008FB214 /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				5EF95F8C25CF4377008FB214 /* LaunchScreen.storyboard in Resources */,
 				5EF95F8925CF4377008FB214 /* Assets.xcassets in Resources */,
-				5EF95F8725CF4373008FB214 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5EF95F8525CF4373008FB214 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EF95F8625CF4373008FB214 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CW2632N57;
 				INFOPLIST_FILE = "TikTok-Clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "amitbiswas.TikTok-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CW2632N57;
 				INFOPLIST_FILE = "TikTok-Clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "amitbiswas.TikTok-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
