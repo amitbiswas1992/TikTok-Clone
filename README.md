@@ -8,16 +8,12 @@
 <a href="https://github.com/amitbiswas1992/githubexplorer"><img src="https://travis-ci.com/slatedocs/slate.svg?branch=master" alt="Build Status"></a>
 </p>
 
-/Users/amitbiswas/iOS/TikTok-Clone/TikTok-Clone/Assets.xcassets/bit
  
 ## Summary
  
  TikTok-Clone iOS App in Swift 5 from scratch. No storyboards, no xibs - just code. I tried to implement several tnative iOS technologies like compositional layout, custom cameras, fetching data, and more.
             
 
-<p align = "center"> 
-<img src="BitCoinPices/Assets.xcassets/bit-2.imageset/bit-2.png"  width ="280" height="575" >
-</p>
 
 ## Features
  
