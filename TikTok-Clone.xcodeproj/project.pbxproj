@@ -7,19 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E61239925CF645200B23084 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61239825CF645200B23084 /* ProfileViewController.swift */; };
+		5E61239D25CF646E00B23084 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61239C25CF646E00B23084 /* CameraViewController.swift */; };
+		5E6123A025CF647900B23084 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61239F25CF647900B23084 /* NotificationViewController.swift */; };
+		5E6123A325CF648500B23084 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123A225CF648500B23084 /* ExploreViewController.swift */; };
+		5E6123A725CF64A900B23084 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123A625CF64A900B23084 /* SignInViewController.swift */; };
+		5E6123AB25CF64B300B23084 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123AA25CF64B200B23084 /* SignUpViewController.swift */; };
+		5E6123AE25CF64BE00B23084 /* SttingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123AD25CF64BE00B23084 /* SttingsViewController.swift */; };
+		5E6123B125CF64D500B23084 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123B025CF64D500B23084 /* UserListViewController.swift */; };
+		5E6123B425CF651000B23084 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123B325CF651000B23084 /* TabBarViewController.swift */; };
+		5E6123B725CF655F00B23084 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123B625CF655F00B23084 /* PostViewController.swift */; };
+		5E6123BC25CF662B00B23084 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123BB25CF662B00B23084 /* APICaller.swift */; };
+		5E6123BF25CF663F00B23084 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123BE25CF663F00B23084 /* DatabaseManager.swift */; };
+		5E6123C225CF664C00B23084 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123C125CF664C00B23084 /* StorageManager.swift */; };
+		5E6123C525CF665D00B23084 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123C425CF665D00B23084 /* AuthenticationManager.swift */; };
+		5E6123C825CF666800B23084 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6123C725CF666800B23084 /* HapticManager.swift */; };
 		5E85F43425CF5DF20064AC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E85F43325CF5DF20064AC50 /* Assets.xcassets */; };
 		5EF95F8025CF4373008FB214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F7F25CF4373008FB214 /* AppDelegate.swift */; };
 		5EF95F8225CF4373008FB214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8125CF4373008FB214 /* SceneDelegate.swift */; };
-		5EF95F8425CF4373008FB214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8325CF4373008FB214 /* ViewController.swift */; };
+		5EF95F8425CF4373008FB214 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF95F8325CF4373008FB214 /* HomeViewController.swift */; };
 		5EF95F8C25CF4377008FB214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E61239825CF645200B23084 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5E61239C25CF646E00B23084 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5E61239F25CF647900B23084 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		5E6123A225CF648500B23084 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		5E6123A625CF64A900B23084 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5E6123AA25CF64B200B23084 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5E6123AD25CF64BE00B23084 /* SttingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SttingsViewController.swift; sourceTree = "<group>"; };
+		5E6123B025CF64D500B23084 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		5E6123B325CF651000B23084 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5E6123B625CF655F00B23084 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		5E6123BB25CF662B00B23084 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		5E6123BE25CF663F00B23084 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		5E6123C125CF664C00B23084 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		5E6123C425CF665D00B23084 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		5E6123C725CF666800B23084 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		5E85F43325CF5DF20064AC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../BitCoinPices/BitCoinPices/Assets.xcassets; sourceTree = "<group>"; };
 		5EF95F7C25CF4373008FB214 /* TikTok-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TikTok-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF95F7F25CF4373008FB214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF95F8125CF4373008FB214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EF95F8325CF4373008FB214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EF95F8325CF4373008FB214 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5EF95F8B25CF4377008FB214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF95F8D25CF4377008FB214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +65,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E61239725CF639D00B23084 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5EF95F8325CF4373008FB214 /* HomeViewController.swift */,
+				5E61239825CF645200B23084 /* ProfileViewController.swift */,
+				5E61239C25CF646E00B23084 /* CameraViewController.swift */,
+				5E61239F25CF647900B23084 /* NotificationViewController.swift */,
+				5E6123A225CF648500B23084 /* ExploreViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5E6123A525CF649B00B23084 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5E6123A625CF64A900B23084 /* SignInViewController.swift */,
+				5E6123AA25CF64B200B23084 /* SignUpViewController.swift */,
+				5E6123AD25CF64BE00B23084 /* SttingsViewController.swift */,
+				5E6123B025CF64D500B23084 /* UserListViewController.swift */,
+				5E6123B325CF651000B23084 /* TabBarViewController.swift */,
+				5E6123B625CF655F00B23084 /* PostViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5E6123B925CF656500B23084 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		5E6123BA25CF656E00B23084 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		5EF95F7325CF4373008FB214 = {
 			isa = PBXGroup;
 			children = (
@@ -54,13 +124,13 @@
 		5EF95F7E25CF4373008FB214 /* TikTok-Clone */ = {
 			isa = PBXGroup;
 			children = (
-				5E85F43325CF5DF20064AC50 /* Assets.xcassets */,
-				5EF95F9E25CF5355008FB214 /* Resources */,
 				5EF95F9D25CF532C008FB214 /* Managers */,
 				5EF95F9C25CF5329008FB214 /* Model */,
+				5EF95F9925CF5324008FB214 /* Views */,
 				5EF95F9B25CF5328008FB214 /* ViewModel */,
 				5EF95F9A25CF5326008FB214 /* Controllers */,
-				5EF95F9925CF5324008FB214 /* Views */,
+				5EF95F9E25CF5355008FB214 /* Resources */,
+				5E85F43325CF5DF20064AC50 /* Assets.xcassets */,
 				5EF95F8D25CF4377008FB214 /* Info.plist */,
 			);
 			path = "TikTok-Clone";
@@ -69,8 +139,8 @@
 		5EF95F9925CF5324008FB214 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5EF95F8325CF4373008FB214 /* ViewController.swift */,
-				5EF95F8A25CF4377008FB214 /* LaunchScreen.storyboard */,
+				5E6123BA25CF656E00B23084 /* Other */,
+				5E6123B925CF656500B23084 /* StoryBoard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -78,6 +148,8 @@
 		5EF95F9A25CF5326008FB214 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5E6123A525CF649B00B23084 /* Other */,
+				5E61239725CF639D00B23084 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -93,12 +165,18 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			name = Model;
+			path = Controllers/Model;
 			sourceTree = "<group>";
 		};
 		5EF95F9D25CF532C008FB214 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				5E6123BB25CF662B00B23084 /* APICaller.swift */,
+				5E6123BE25CF663F00B23084 /* DatabaseManager.swift */,
+				5E6123C125CF664C00B23084 /* StorageManager.swift */,
+				5E6123C425CF665D00B23084 /* AuthenticationManager.swift */,
+				5E6123C725CF666800B23084 /* HapticManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -181,9 +259,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF95F8425CF4373008FB214 /* ViewController.swift in Sources */,
+				5EF95F8425CF4373008FB214 /* HomeViewController.swift in Sources */,
+				5E6123B125CF64D500B23084 /* UserListViewController.swift in Sources */,
+				5E6123BF25CF663F00B23084 /* DatabaseManager.swift in Sources */,
+				5E6123AE25CF64BE00B23084 /* SttingsViewController.swift in Sources */,
+				5E6123BC25CF662B00B23084 /* APICaller.swift in Sources */,
+				5E6123B725CF655F00B23084 /* PostViewController.swift in Sources */,
+				5E61239D25CF646E00B23084 /* CameraViewController.swift in Sources */,
+				5E6123B425CF651000B23084 /* TabBarViewController.swift in Sources */,
+				5E6123A025CF647900B23084 /* NotificationViewController.swift in Sources */,
 				5EF95F8025CF4373008FB214 /* AppDelegate.swift in Sources */,
+				5E6123C525CF665D00B23084 /* AuthenticationManager.swift in Sources */,
+				5E6123A725CF64A900B23084 /* SignInViewController.swift in Sources */,
+				5E61239925CF645200B23084 /* ProfileViewController.swift in Sources */,
+				5E6123AB25CF64B300B23084 /* SignUpViewController.swift in Sources */,
+				5E6123A325CF648500B23084 /* ExploreViewController.swift in Sources */,
 				5EF95F8225CF4373008FB214 /* SceneDelegate.swift in Sources */,
+				5E6123C825CF666800B23084 /* HapticManager.swift in Sources */,
+				5E6123C225CF664C00B23084 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
