@@ -228,6 +228,7 @@
 				5EF95F7925CF4373008FB214 /* Frameworks */,
 				5EF95F7A25CF4373008FB214 /* Resources */,
 				07875F6AE642CAA1479D26BA /* [CP] Embed Pods Frameworks */,
+				5EF0057625CF73110032A5CA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -300,6 +301,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikTok-Clone/Pods-TikTok-Clone-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		5EF0057625CF73110032A5CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 		F9140F966E4681F2778270AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
