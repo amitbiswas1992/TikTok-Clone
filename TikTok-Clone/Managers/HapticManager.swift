@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import UIKit
+
+final class HapticManager {
+    public static let shared = HapticManager()
+    
+    private init () {}
+    
+    
+    
+    
+    
+}
