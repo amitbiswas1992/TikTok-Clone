@@ -9,10 +9,14 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
     
+    @IBOutlet weak var filterBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupController()
         
+        //filterBtn.setImage(UIImage(named: "camera"),  for: <#UIControl.State#>)
     }
     
     private func setupController() {
@@ -38,7 +42,7 @@ class TabBarViewController: UITabBarController {
         let exploreNav              = UINavigationController(rootViewController: explore)
         
         // Setup tabbar icon
-        homeNav.tabBarItem          = UITabBarItem(title: nil, image: UIImage(systemName: "house"), tag: 1)
+        homeNav.tabBarItem          = UITabBarItem(title: nil, image: UIImage(systemName: "house.circle.fill"), tag: 1)
         exploreNav.tabBarItem       = UITabBarItem(title: nil, image: UIImage(systemName: "safari"), tag: 2)
         camera.tabBarItem           = UITabBarItem(title: nil, image: UIImage(systemName: "camera"), tag: 3)
         
@@ -51,7 +55,7 @@ class TabBarViewController: UITabBarController {
         // given navigation item title color and custom font
         let attrs = [
             NSAttributedString.Key.foregroundColor: UIColor.systemBlue,
-            NSAttributedString.Key.font: UIFont(name: "Helvetica-Bold", size: 20)!
+            NSAttributedString.Key.font: UIFont(name: "Helvetica", size: 20)!
         ]
         
         UINavigationBar.appearance().titleTextAttributes = attrs
