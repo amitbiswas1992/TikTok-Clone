@@ -15,6 +15,15 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .systemBackground
     }
 
-
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        let vc = UIViewController()
+        vc.view.backgroundColor = [UIColor.red, UIColor.gray, UIColor.systemPink].randomElement()
+        return vc
+    }
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        let vc = UIViewController()
+        vc.view.backgroundColor = [UIColor.red, UIColor.gray, UIColor.systemPink].randomElement()
+        return vc
+    }
 }
 
