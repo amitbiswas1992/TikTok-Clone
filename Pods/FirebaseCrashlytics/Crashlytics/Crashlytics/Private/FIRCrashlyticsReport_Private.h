@@ -1,4 +1,4 @@
-// Copyright 2019 Google
+// Copyright 2021 Google LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,12 +12,24 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef FIRAEvent_Internal_h
-#define FIRAEvent_Internal_h
+#ifndef FIRCrashlyticsReport_Private_h
+#define FIRCrashlyticsReport_Private_h
 
-#import "Crashlytics/Crashlytics/Helpers/FIRAEvent.h"
-#import "Crashlytics/Crashlytics/Helpers/FIRAValue.h"
+#import "Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRCrashlyticsReport.h"
 
-NSString* FIRCLSFIRAEventDictionaryToJSON(NSDictionary* eventAsDictionary);
+NS_ASSUME_NONNULL_BEGIN
 
-#endif /* FIRAEvent_Internal_h */
+/**
+ * Internal initializer because this object is created by the SDK.
+ **/
+@interface FIRCrashlyticsReport (Private)
+
+- (instancetype)initWithInternalReport:(FIRCLSInternalReport *)internalReport;
+
+@property(nonatomic, strong) FIRCLSInternalReport *internalReport;
+
+@end
+
+NS_ASSUME_NONNULL_END
+
+#endif /* FIRCrashlyticsReport_Private_h */
