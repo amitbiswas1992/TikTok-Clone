@@ -5,7 +5,7 @@
  <h2> Tiktok Clone  </h2>
 </div>
 <p align = "center"> 
-<a href="https://github.com/amitbiswas1992/githubexplorer"><img src="https://travis-ci.com/slatedocs/slate.svg?branch=master" alt="Build Status"></a>
+<a href="https://github.com/amitslog/githubexplorer"><img src="https://travis-ci.com/slatedocs/slate.svg?branch=master" alt="Build Status"></a>
 </p>
 
  
